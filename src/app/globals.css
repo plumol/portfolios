@@ -19,8 +19,42 @@
   }
 }
 
+html, body, button, a {
+  cursor: none;
+}
+
+html {
+  scroll-padding-top: 6rem;
+  scroll-behavior: smooth;
+}
+
+
 body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  /* font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, Arial, sans-serif; */
+}
+
+ul, li, ol{
+  list-style: none;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-sans-font {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+#experience-list-item {
+  list-style: disc; 
 }
