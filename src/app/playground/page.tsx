@@ -4,7 +4,7 @@ import React, { useRef, useState, useEffect } from 'react'
 
 import Header from "@/components/header";
 
-function setup() {
+function Setup() {
     const containerRef = useRef<HTMLDivElement>(null);
 
     const xSpeed = 0.05;
@@ -92,7 +92,7 @@ function setup() {
 }
 
 export default function Page() {
-    setup();
+    Setup();
     return (
         <div id=''>
             <Header/>

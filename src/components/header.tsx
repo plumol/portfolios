@@ -6,10 +6,10 @@ export default function Header() {
             </div>
     
             <div className='flex min-w-1/2 justify-end items-center mr-8 pr-12 gap-20 text-xl inter-font'>
-                <a href="/#about">about</a>
-                <a href="/#experience">experience</a>
-                <a href="/#projects">projects</a>
-                <a href="/playground">fun</a>
+                <a href="#about">about</a>
+                <a href="#experience">experience</a>
+                <a href="#projects">projects</a>
+                <a href="playground">fun</a>
             </div>
         </nav>
     )

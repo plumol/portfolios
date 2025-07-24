@@ -1,11 +1,5 @@
 'use client';
 
-import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faArrowDown
-} from '@fortawesome/free-solid-svg-icons'
-
 import ProjectCard from '@/components/project_card'
 import ExperienceCard from '@/components/experience_card'
 import IntroCard from "@/components/intro_card";
