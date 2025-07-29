@@ -171,7 +171,7 @@ export default function IntroCard() {
 
     return(
         <>
-            <div id='intro' className='flex flex-col justify-center items-center min-h-[40rem] w-full h-[75vh]'>
+            <div id='intro' className='flex flex-col justify-center items-center min-h-[40rem] w-full h-[70vh]'>
                 <div id='intro-body' className='flex justify-center items-center max-w-[32rem] max-h-[16rem]'>
                     <div className=''>
                         <p className='text-3xl text-center inter-font'>KYLE LAM</p>

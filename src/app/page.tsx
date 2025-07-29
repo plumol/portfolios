@@ -24,7 +24,7 @@ export default function Home() {
       <main className='min-h-lvh mt-24'>
         <div className="flex flex-col items-center w-[100%]">
           <IntroCard />
-          <button className="text-5xl mb-15 mt-10" onClick={handleScrollNext}>&darr;</button>
+          <button className="text-5xl mb-15 mt-5" onClick={handleScrollNext}>&darr;</button>
         </div>
         
 

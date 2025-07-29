@@ -7,7 +7,6 @@ import {
     faChevronDown
 } from '@fortawesome/free-solid-svg-icons';
 
-import ProjectCard from './project_card';
 
 interface CollapsibleProp {
     open?: boolean;
@@ -23,17 +22,13 @@ const experience_json = {
             location: 'Providence, RI',
             date_start: 'September 2023',
             date_end: 'Present',
-            about: "Built and deployed a full-stack dashboard using React, Node.js, Express, and MongoDB to streamline the management of bioinformatics \
-                    data pipelines. Designed and implemented a CI/CD pipeline with Docker and GitHub Actions for faster and more reliable deployments. \
-                    Integrated a large language model to automate schema generation and improved developer experience with standardized environments and automated testing.",
+            about: "  \
+                    ",
             description: [
-                "Deployed a full-stack dashboard for launching and managing bioinformatics data pipelines, improving researcher \
-                    experience and data workflow efficiency by 40% using React, Node.js, Express, and MongoDB.",
-                "Cut dashboard deployment times by 40% by implementing a CI/CD pipeline using Docker and GitHub Actions.", 
-                "Engineered the integration of a LLM into the CI/CD pipeline, automating generation of JSON schemas for documentation in \
-                    new data workflows and reducing developer onboarding time by 75%.", 
-                "Improved developer experience by standardizing local development environments with Docker and integrating automated \
-                    unit testing with Jest in the CI workflow."
+                "Built and deployed a full-stack dashboard using React, Node.js, Express, and MongoDB to streamline the management of bioinformatics \
+                    data pipelines.",
+                "Designed and implemented a CI/CD pipeline with Docker and GitHub Actions for faster and more reliable deployments.", 
+                "Integrated a large language model to automate schema generation and improved developer experience with standardized environments and automated testing." 
             ],
             tldr: ["Full-stack", "DevOps", "LLM-ops", "Observability"],
             skills: [
@@ -49,15 +44,12 @@ const experience_json = {
             location: 'Providence, RI',
             date_start: 'September 2024',
             date_end: 'Present',
-            about: 'Designed machine learning experiments to study how data augmentations influence model bias in self-supervised vision models. \
-                    Developed training infrastructure and contributed to open-source libraries using PyTorch. Engineered distributed training scripts \
-                    for large-scale experiments on HPC clusters, streamlining setup and job scheduling with Slurm.',
+            about: ' \
+                    ',
             description: [
-                "Designed machine learning experiments to investigate model bias formed by data augmentations in computer vision \
-                    models with self-supervised learning methods, building on previous papers.",
-                "Developed machine learning algorithms and training infrastructure with PyTorch, contributing to open-source libraries.", 
-                "Engineered distributed machine learning training scripts for large-scale computer vision experiments, reducing model \
-                    setup time by 70% and optimizing job scheduling with Slurm on high-performance computing clusters."
+                "Designed machine learning experiments to study how data augmentations influence model bias in self-supervised vision models.",
+                "Developed training infrastructure and contributed to open-source libraries using PyTorch.", 
+                "Engineered distributed training scripts for large-scale experiments on HPC clusters, streamlining setup and job scheduling with Slurm."
             ],
             tldr: ["Self-Supervised Learning", "Computer Vision", "ML Infrastructure", "HPC / Slurm"],
             skills: ['Python', 'PyTorch', 'Matplotlib']
@@ -68,14 +60,11 @@ const experience_json = {
             location: 'Providence, RI',
             date_start: 'January 2024',
             date_end: 'May 2025',
-            about: 'Led course development, project design, and student support for both a small seminar on AI & Security and a large lecture course on \
-                    Deep Learning. Collaborated with faculty to develop assignments on cryptography, AI safety, and neural networks. Provided mentorship \
-                    to student teams applying deep learning in domains like music, genomics, and art.',
+            about: '  ',
             description: [
-                "Revamped machine learning projects, led discussions, and hosted office hours for students in 30- and 300-student courses",
-                "AI & Security: Developed projects on cryptography and AI safety, managing course content for a 30-student seminar",
-                "Deep Learning: Provided technical mentorship and advising for 3 student teams working on deep learning applications \
-                    and models in music generation, genome classification, and art-style transfer."
+                "Led course development, project design, and student support for both a small seminar on AI & Security and a large lecture course on Deep Learning.",
+                "Collaborated with faculty to develop assignments on cryptography, AI safety, and neural networks.",
+                "Provided mentorship to student teams applying deep learning in domains like music, genomics, and art."
             ],
             tldr: ["Course Development", "AI Safety", "Deep Learning", "Project Mentorship"],
             skills: ["Python", "PyTorch", "Jupyter", 'NumPy', 'Pandas']
@@ -86,15 +75,12 @@ const experience_json = {
             location: 'New York City, NY',
             date_start: 'June 2024',
             date_end: 'August 2024',
-            about: 'Implemented and optimized Monte Carlo simulation algorithms in Python and C++ to study complex particle systems. \
-                    Worked closely with postdocs and faculty on algorithm design, performance tuning, and real-time data visualization. Presented \
-                    research and software at the NYU Summer Research Symposium under the NYU Computational Physical Chemistry SURP.',
+            about: ' \
+                    ',
             description: [
-                "Implemented Monte Carlo algorithms to simulate particle models in Python and C++, improving computational algorithms \
-                    to achieve 60% increase in simulation performance.",
-                "Led end-to-end software development with postdoctoral mentor and faculty, including algorithm design, performance \
-                    tuning, and integration with a custom-built particle visualizer in Python for real-time tracking of particle interactions.",
-                "Presented research findings and poster at the NYU Summer Research Symposium to 100+ staff, faculty, and students."
+                "Implemented and optimized Monte Carlo simulation algorithms in Python and C++ to study complex particle systems.",
+                "Worked closely with postdocs and faculty on algorithm design, performance tuning, and real-time data visualization.",
+                "Presented research and software at the NYU Summer Research Symposium under the NYU Computational Physical Chemistry SURP."
             ],
             tldr: ["Monte Carlo Simulation", "Computational Physics", "Monte Carlo Algorithms", "Scientific Visualization"],
             skills: ['C++', 'Python', 'CMake', 'Matplotlib']
@@ -105,9 +91,12 @@ const experience_json = {
             location: 'Providence, RI',
             date_start: 'October 2022',
             data_end: 'May 2025',
-            about: 'Built modular bioinformatics pipelines in Python to analyze protein sequence and structural data, with significant performance \
-                    improvements over existing tools. Automated molecular dynamics simulations using GROMACS and WESTPA on HPC clusters to study conformational \
-                    dynamics in Abl1 kinase mutants. Co-authored a peer-reviewed preprint in eLife uncovering novel mechanistic insights into rare kinase states.',
+            about: '  ',
+            description: [
+                'Built modular bioinformatics pipelines in Python to analyze protein sequence and structural data, with significant performance improvements over existing tools.',
+                'Automated molecular dynamics simulations using GROMACS and WESTPA on HPC clusters to study conformational dynamics in Abl1 kinase mutants.',
+                'Co-authored a peer-reviewed preprint in eLife uncovering novel mechanistic insights into rare kinase states.'
+            ],
             tldr: ['Bioinformatics', 'Molecular Dynamics', 'HPC / GROMACS / WESTPA'],
             skills: ["Python", "MDAnalysis", "NumPy", "GROMACS"]
         }
@@ -170,13 +159,15 @@ function CollapsibleDescription({open, description, tldrs}: CollapsibleProp) {
 export default function Experience() {
     return (
         <div className='mx-4 md:mx-16 flex flex-col justify-center items-center'>
+            <h1 id='about' className='inter-font text-2xl mb-3 text-left'>About Me</h1>
             <div className='flex flex-row justify-center items-center w-full mb-10'>
-                <div id='about' className='w-[54rem]'>
+                <div className='w-[54rem]'>
+                    
                     <div className='text-left mb-10 mr-50 inter-font'>
                         <h2 className='text-2xl font-semibold mb-5'>I'm Kyle Lam — I build systems that make data-driven research faster, smarter, and more scalable.</h2>
-                        <p className='text-xl'>
+                        <p className='text-xl '>
                             Originally from Southern California, I recently graduated from Brown University having studied my "ABCs":
-                            Applied Math, Biochemistry, and Computer Science. 
+                            Applied Math, Biochemistry, and Computer Science.
                         </p>
                         <p className='mt-5 text-xl'>
                             I’m especially interested in the spaces where research meets real-world engineering — whether that’s training large-scale ML models, 
@@ -202,8 +193,8 @@ export default function Experience() {
                 </div>
             </div>
 
-            <p className='inter-font text-2xl mb-5'>Experience</p>
-            <div id='experience' className='flex'>
+            <p id='experience' className='inter-font text-2xl mb-5'>Experience</p>
+            <div className='flex'>
                 <div id='experience-card' className="max-w-4xl mx-auto">
                     <div className='relative border-l-gray-500 border-l-2 pl-2 my-2 mx-4'>
                         <div className="space-y-4">
@@ -226,7 +217,14 @@ export default function Experience() {
                                                         </span>
                                                     ))}
                                                 </div>
-                                                <div className='mt-4 text-sm opacity-80'>{entry.about}</div>
+                                                <ul className='mt-4 text-sm opacity-80 '>
+                                                    {entry.description.map((point, index) => (
+                                                        <li key={index} className='flex'>
+                                                            <span className='mr-2'>&bull;</span>
+                                                            {point}
+                                                        </li>
+                                                    ))}
+                                                </ul>
                                                 <div className='flex gap-2 mt-3'>
                                                     {entry.skills.map((tag, index) => (
                                                         <span key={index} className='px-2 py-1 bg-green-200 text-gray-700 text-xs rounded-full font-medium text-center'>
