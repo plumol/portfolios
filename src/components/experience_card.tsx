@@ -160,10 +160,10 @@ export default function Experience() {
     return (
         <div className='mx-4 md:mx-16 flex flex-col justify-center items-center'>
             <h1 id='about' className='inter-font text-2xl mb-3 text-left'>About Me</h1>
-            <div className='flex flex-row justify-center items-center w-full mb-10'>
+            <div className='flex flex-row justify-center items-center w-full mb-10 h-[65vh]'>
                 <div className='w-[54rem]'>
                     
-                    <div className='text-left mb-10 mr-50 inter-font'>
+                    <div className='text-left mb-10 mt-10 mr-50 inter-font'>
                         <h2 className='text-2xl font-semibold mb-5'>I'm Kyle Lam — I build systems that make data-driven research faster, smarter, and more scalable.</h2>
                         <p className='text-lg '>
                             Originally from Southern California, I recently graduated from Brown University having studied my "ABCs":
@@ -176,14 +176,40 @@ export default function Experience() {
 
                         <p className='mt-5 text-lg'>Outside of work, I practice Taekwondo, take interesting pictures, and love to test new recipes and food. If you have any, send them my way!</p>
 
-                        <p className='px-4 py-2 p mt-5 border-2 rounded-xl'>
+                        {/* <p className='px-4 py-2 p mt-5 border-2 rounded-xl'>
                             Currently software engineering intern for Brown University's Center for Computation and Visualization, a department
                             that manages high-performance computing resources and support for computational research @ Brown.
-                        </p>
+                        </p> */}
+                        {/* <div className="bg-white border-2 border-red-500 rounded-lg p-4 my-3 shadow-lg shadow-red-500/10 inter-font">
+                            <div className="flex items-center text-red-500 font-semibold text-sm uppercase mb-2 pulse-bullet">
+                                Now
+                            </div>
+                            <p className="font-semibold">Software Engineering Intern</p>
+                            <p className="text-gray-600 text-sm">Brown University's Center for Computation and Visualization</p>
+                            <p className='text-sm'>Managing high-performance computing resources and support for computational research @ Brown</p>
+                        </div> */}
+                        <div className="border-2 border-emerald-200 rounded-lg p-4 my-3 hover:border-emerald-300 transition-colors">
+                            <div className="flex items-center justify-between mb-3">
+                                <div className="flex items-center space-x-2">
+                                    <span className="relative flex h-3 w-3">
+                                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
+                                        <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
+                                    </span>
+                                    <span className="text-emerald-600 font-semibold text-sm">Currently at</span>
+                                </div>
+                            </div>
+                            <div className="space-y-2">
+                                <div>
+                                    <h3 className="font-semibold text-slate-800">Software Engineering Intern</h3>
+                                    <p className="text-slate-600 text-sm">Brown University's Center for Computation and Visualization</p>
+                                </div>
+                                <div className="text-slate-700 text-sm leading-relaxed bg-emerald-50 p-3 rounded border-l-4 border-emerald-400">
+                                    Managing high-performance computing resources and support for computational research @ Brown
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div>
-
-                    </div>
+                    <div></div>
                 </div>
 
                 {/* <div className='bg-yellow-300 h-[10rem] w-50'></div> */}

@@ -58,3 +58,19 @@ ul, li, ol{
 #experience-list-item {
   list-style: disc; 
 }
+
+@keyframes pulse-dot {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        
+        .pulse-dot {
+            animation: pulse-dot 2s infinite;
+        }
+        
+        .pulse-bullet::before {
+            content: "●";
+            margin-right: 8px;
+            animation: pulse-dot 2s infinite;
+        }
