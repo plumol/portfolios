@@ -7,12 +7,12 @@ export default function Footer() {
                 </div>
                     <div className='flex min-w-1/2 justify-around '>
                     <div className='flex flex-col'>
-                        <span className="font-semibold text-2xl mb-2">contact me</span>
+                        <span className="font-semibold text-2xl">contact me</span>
                         <a href="https://www.linkedin.com/in/kyle-lam76/" className="text-xl">linkedin</a>
                         <a href='https://github.com/plumol' className="text-xl">github</a>
                         <a className="text-xl">email</a>
                     </div>
-                    <div className="flex flex-col mb-2">
+                    <div className="flex flex-col">
                         <span className="font-semibold text-2xl">navigation</span>
                         <a href="#experience" className="text-xl">experience</a>
                         <a href='#project' className="text-xl">projects</a>

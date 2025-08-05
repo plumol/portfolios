@@ -165,19 +165,19 @@ export default function Experience() {
                     
                     <div className='text-left mb-10 mr-50 inter-font'>
                         <h2 className='text-2xl font-semibold mb-5'>I'm Kyle Lam — I build systems that make data-driven research faster, smarter, and more scalable.</h2>
-                        <p className='text-xl '>
+                        <p className='text-lg '>
                             Originally from Southern California, I recently graduated from Brown University having studied my "ABCs":
                             Applied Math, Biochemistry, and Computer Science.
                         </p>
-                        <p className='mt-5 text-xl'>
+                        <p className='mt-5 text-lg'>
                             I’m especially interested in the spaces where research meets real-world engineering — whether that’s training large-scale ML models, 
                             designing scientific software, or building infrastructure for high-throughput bioinformatics data workflows.
                         </p>
 
-                        <p className='mt-5 text-xl'>Outside of work, I practice Taekwondo, take interesting pictures, and love to test new recipes and food. If you have any, send them my way!</p>
+                        <p className='mt-5 text-lg'>Outside of work, I practice Taekwondo, take interesting pictures, and love to test new recipes and food. If you have any, send them my way!</p>
 
                         <p className='px-4 py-2 p mt-5 border-2 rounded-xl'>
-                            I am currently working as a software engineering intern for Brown University's Center for Computation and Visualization, a department
+                            Currently software engineering intern for Brown University's Center for Computation and Visualization, a department
                             that manages high-performance computing resources and support for computational research @ Brown.
                         </p>
                     </div>
@@ -188,7 +188,7 @@ export default function Experience() {
 
                 {/* <div className='bg-yellow-300 h-[10rem] w-50'></div> */}
                 <div>
-                    <Image src='/pfpic.jpg' alt='profile picture' width={400} height={100} className='rounded-2xl'></Image>
+                    <Image src='/pfpic.jpg' alt='profile picture' width={350} height={100} className='rounded-2xl'></Image>
                     <p className='text-center italic mt-1'>Flower picking at a tulip field in Exeter, RI!</p>
                 </div>
             </div>
