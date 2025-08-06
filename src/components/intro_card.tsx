@@ -171,12 +171,12 @@ export default function IntroCard() {
 
     return(
         <>
-            <div id='intro' className='flex flex-col justify-center items-center w-full h-[70vh]'>
-                <div id='intro-body' className='flex justify-center items-center max-w-[32rem] max-h-[16rem]'>
-                    <div className=''>
-                        <p className='text-3xl text-center inter-font'>KYLE LAM</p>
-                        <p className='text-2xl text-center inter-font tracking-tight'>is a software engineer focused on creating platforms that make <TypeWriter texts={items} loop={true}/> easier. </p>
-                        <p className='text-center inter-font'>CS & Biochemistry from Brown University</p>
+            <div id='intro' className='flex flex-col justify-center items-center w-full h-[70vh] px-4 sm:px-6 lg:px-8'>
+                <div id='intro-body' className='flex justify-center items-center max-w-[32rem]'>
+                    <div className='text-center'>
+                        <p className='text-2xl sm:text-3xl lg:text-3xl inter-font'>KYLE LAM</p>
+                        <p className='text-xl sm:text-2xl lg:text-2xl inter-font tracking-tight'>is a software engineer focused on creating platforms that make <TypeWriter texts={items} loop={true}/> easier. </p>
+                        <p className='text-base sm:text-lg inter-font'>CS & Biochemistry from Brown University</p>
                         
                     </div>
                 </div>

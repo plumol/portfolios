@@ -53,7 +53,7 @@ export default function ProjectCard() {
     return (
         <div className=''>
             <p className='text-center mb-8 inter-font text-2xl'>Featured Projects</p>
-            <div className="grid grid-cols-3 grid-auto-rows gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 {projects_json.projects.map((entry, idx) => {
                     return (
                         <div 

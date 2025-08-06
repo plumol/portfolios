@@ -21,7 +21,7 @@ export default function Home() {
       
       <Header/>
 
-      <main className='min-h-lvh mt-24'>
+      <main className='min-h-lvh mt-24 flex flex-col overflow-y-hidden'>
         <div className="flex flex-col items-center w-[100%]">
           <IntroCard />
           <button className="text-5xl mb-15 mt-5" onClick={handleScrollNext}>&darr;</button>
@@ -32,10 +32,10 @@ export default function Home() {
           <ExperienceCard/>
         </div>
 
-        <div id='projects' className='min-h-96'>
-          <div className=' p-5 mx-32'>
-            <ProjectCard/>
-          </div>
+        <div id='projects' className='min-h-96 p-5 mx-32'>
+          
+          <ProjectCard/>
+
         </div>
       </main>
       <Footer/>

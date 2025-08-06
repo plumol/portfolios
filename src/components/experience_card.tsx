@@ -25,14 +25,14 @@ const experience_json = {
             about: "  \
                     ",
             description: [
-                "Built and deployed a full-stack dashboard using React, Node.js, Express, and MongoDB to streamline the management of bioinformatics \
+                "Built and deployed a full-stack dashboard using React, Node.js, FastAPI, and MongoDB to streamline the management of bioinformatics \
                     data pipelines.",
                 "Designed and implemented a CI/CD pipeline with Docker and GitHub Actions for faster and more reliable deployments.", 
                 "Integrated a large language model to automate schema generation and improved developer experience with standardized environments and automated testing." 
             ],
             tldr: ["Full-stack", "DevOps", "LLM-ops", "Observability"],
             skills: [
-                "React", "Node.js", "Express.js", "MongoDB",
+                "React", "Node.js", "FastAPI", "MongoDB",
                 "Docker", "CI/CD",
                 "LLM Integration", "HTML/CSS",
             ]
@@ -156,14 +156,14 @@ function CollapsibleDescription({open, description, tldrs}: CollapsibleProp) {
     )
 }
 
-export default function Experience() {
+function Intro() {
     return (
-        <div className='mx-4 md:mx-16 flex flex-col justify-center items-center'>
+        <div className='flex flex-col items-center justify-center'>
             <h1 id='about' className='inter-font text-2xl mb-3 text-left'>About Me</h1>
-            <div className='flex flex-row justify-center items-center w-full mb-10 h-[65vh]'>
-                <div className='w-[54rem]'>
+            <div className='flex flex-col md:flex-row justify-center items-center w-full mb-10 min-h-[65vh]'>
+                <div className='w-full md:w-[60rem] max-w-5xl'>
                     
-                    <div className='text-left mb-10 mt-10 mr-50 inter-font'>
+                    <div className='text-left mb-10 mt-10 mr-15 md:mr-50 inter-font'>
                         <h2 className='text-2xl font-semibold mb-5'>I'm Kyle Lam — I build systems that make data-driven research faster, smarter, and more scalable.</h2>
                         <p className='text-lg '>
                             Originally from Southern California, I recently graduated from Brown University having studied my "ABCs":
@@ -195,7 +195,7 @@ export default function Experience() {
                                         <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
                                         <span className="relative inline-flex rounded-full h-3 w-3 bg-emerald-500"></span>
                                     </span>
-                                    <span className="text-emerald-600 font-semibold text-sm">Currently at</span>
+                                    <span className="text-emerald-600 font-semibold text-sm">Currently Working</span>
                                 </div>
                             </div>
                             <div className="space-y-2">
@@ -213,12 +213,18 @@ export default function Experience() {
                 </div>
 
                 {/* <div className='bg-yellow-300 h-[10rem] w-50'></div> */}
-                <div>
+                <div className='mt-10 md:mt-0'>
                     <Image src='/pfpic.jpg' alt='profile picture' width={350} height={100} className='rounded-2xl'></Image>
                     <p className='text-center italic mt-1'>Flower picking at a tulip field in Exeter, RI!</p>
                 </div>
             </div>
-
+        </div>
+    )
+}
+export default function Experience() {
+    return (
+        <div className='mx-4 md:mx-16 flex flex-col justify-center items-center'>
+            <Intro/>
             <p id='experience' className='inter-font text-2xl mb-5'>Experience</p>
             <div className='flex'>
                 <div id='experience-card' className="max-w-4xl mx-auto">
