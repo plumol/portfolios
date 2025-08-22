@@ -227,12 +227,12 @@ export default function Experience() {
             <Intro/>
             <p id='experience' className='inter-font text-2xl mb-5'>Experience</p>
             <div className='flex'>
-                <div id='experience-card' className="max-w-4xl mx-auto">
+                <div id='experience-card' className="max-w-sm md:max-w-4xl mx-auto">
                     <div className='relative border-l-gray-500 border-l-2 pl-2 my-2 mx-4'>
                         <div className="space-y-4">
                             {experience_json.experience.map((entry, idx) => {
                                 return (
-                                    <div key={idx} className="relative max-w-[50rem]">
+                                    <div key={idx} className="relative md:max-w-[50rem]">
                                         
                                         <div className='absolute w-2 h-2 border-gray-500 bg-gray-500 rounded-full border left-[-12.5]'></div>
                                         <div className="ml-16 md:ml-20 bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition-all duration-300 p-6">
@@ -241,7 +241,7 @@ export default function Experience() {
                                             
                                                 <div>{entry.date_start} - {entry.date_end} | {entry.location}</div>
 
-                                                <div className='flex gap-4 mt-1'>
+                                                <div className='flex gap-4 mt-1 overflow-auto'>
                                                     <p className='flex text-xs font-semibold items-center'>TL;DR:</p>
                                                     {entry.tldr.map((tag, index) => (
                                                         <span key={index} className='px-2 py-1 bg-gray-100 text-gray-700 text-xs rounded-full font-medium text-center'>
@@ -257,7 +257,7 @@ export default function Experience() {
                                                         </li>
                                                     ))}
                                                 </ul>
-                                                <div className='flex gap-2 mt-3'>
+                                                <div className='flex gap-2 mt-3 overflow-auto'>
                                                     {entry.skills.map((tag, index) => (
                                                         <span key={index} className='px-2 py-1 bg-green-200 text-gray-700 text-xs rounded-full font-medium text-center'>
                                                             {tag}

@@ -32,7 +32,7 @@ export default function Home() {
           <ExperienceCard/>
         </div>
 
-        <div id='projects' className='min-h-96 p-5 mx-32'>
+        <div id='projects' className='min-h-96 p-5 md:mx-32'>
           
           <ProjectCard/>
 
